@@ -1,0 +1,17 @@
+{
+  "name": "generator-anboil",
+  "version": "0.0.1",
+  "description": "Angular boilerplate to quickly get your app running with state and auth provided",
+  "files": [
+    "app",
+    "router"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.0.5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "anboil",
+  "version": "1.0.0",
+  "description": "Angular boilerplate to quickly get your app running with state and auth provided",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfviegas/anboil.git"
+  },
+  "keywords": [
+    "angular",
+    "boilerplate",
+    "angularauth",
+    "auth",
+    "satellizer",
+    "jwt"
+  ],
+  "author": "gfviegas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfviegas/anboil/issues"
+  },
+  "homepage": "https://github.com/gfviegas/anboil#readme",
+  "dependencies": {
+    "bower": "^1.6.3"
+  }
+}
