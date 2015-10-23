@@ -23,4 +23,26 @@ angular.module('applicationApp')
         	}	
         } 
       })
+      .state('signup', {
+        url: '/signup',
+        templateUrl: 'app/account/signup/signup.html',
+        controller: 'SignupCtrl',
+        resolve: {
+          controller: function($ocLazyLoad){
+            return $ocLazyLoad.load("app/account/signup/signup.controller.js");
+          }
+        }
+      })
+      .state('settings', {
+        url: '/settings',
+        templateUrl: 'app/account/settings/settings.html',
+        controller: 'SettingsCtrl',
+        resolve: {
+          controller: function($ocLazyLoad){
+            return $ocLazyLoad.load("app/account/settings/settings.controller.js");
+          }
+        },
+        authenticate: true
+      })
+      ;
   });

@@ -6,6 +6,6 @@
     "live-server": "^0.8.2"
   },
   "scripts": {
-    "start": "live-server"
+    "start": "live-server --entry-file=index.html"
   }
 }

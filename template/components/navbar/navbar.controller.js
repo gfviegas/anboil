@@ -6,14 +6,6 @@ angular.module('applicationApp')
       {
         'title': 'Home',
         'link': '/'
-      },
-      {
-        'title': 'Game',
-        'link': '/game'
-      },
-      {
-        'title': 'Chart',
-        'link': '/chart'
       }
     ];
 
